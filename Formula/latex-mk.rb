@@ -2,6 +2,7 @@ class LatexMk < Formula
   desc "System for simplifying the management of LaTeX documents"
   homepage "http://users.phys.psu.edu/~collins/software/latexmk-jcc"
   url "http://users.phys.psu.edu/~collins/software/latexmk-jcc/latexmk-445.zip"
+  version "4.45"
   sha256 "0f1894c799694b34e936623eea886865e2d19d99f988d4e0e184499016c43851"
 
   depends_on :tex
