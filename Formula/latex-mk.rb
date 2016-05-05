@@ -8,9 +8,8 @@ class LatexMk < Formula
   depends_on "ghostscript" => :optional
 
   def install
-    prefix.install "latexmk.pl"
-    mv prefix/"latexmk.pl", prefix/"latexmk"
-    bin.install_symlink prefix/"latexmk"
+    bin.install "latexmk.pl"
+    mv bin/"latexmk.pl", bin/"latexmk"
   end
 
   test do
