@@ -10,6 +10,7 @@ class LatexMk < Formula
   def install
     bin.install "latexmk.pl"
     mv bin/"latexmk.pl", bin/"latexmk"
+    man1.install "latexmk.1"
   end
 
   test do
